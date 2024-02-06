@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Clock</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WORLD CLOCK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3">
+      <h1 class="text-center">Time in Pakistan's Neighbouring Countries</h1>
+      <main class="my-3">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  Pakistan <ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="pakistan"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>Pakistan is a country with:</b></li><br>
+                  <li>2: The youngest civil judge in the world.</li>
+                  <li>1: Pakistan has the seventh largest collection of scientists and engineers</li>
+                  <li>3: The world's youngest Microsoft Expert is from Pakistan.</li>
+                  
+                </ul>
+            
+
+                <button 
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary country-info"
+                >
+                <a href="https://pakistan.com/" target="_blank">Learn More About China</a>
+                  
+                </button>
+             
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  China<ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="china"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>China is a country with:</b></li><br>
+                  <li>1: Civilisation spanning over 5000 years.</li>
+                  <li>2: Chinese Were The First To Use Paper Money</li>
+                  <li>3: Chinese Flag Was Chosen From Almost 3000 Entries.</li>
+                </ul>
+                
+                <button 
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary country-info"
+              >
+              <a href="https://china.com/" target="_blank">Learn More About China</a>
+                
+              </button>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  India<ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="india"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>India is a country with:</b></li><br>
+                  <li> 1: Cows are sacred in India.</li>
+                  <li> 2: Hinduism is the oldest religion in the world.</li>
+                  <li>3: India is the second largest English-speaking country in the world.</li>
+                </ul>
+               
+                <button 
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary country-info"
+              >
+              <a href="https://www.britannica.com/place/India" target="_blank">Learn More About China</a>
+                
+              </button>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  Afghanistan<ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="afghanistan"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>Afghanistan is a country with:</b></li><br>
+                  <li>1: Afghanistan has been independent since 1919.</li>
+                  <li>2: The world's oldest oil paintings are in Afghanistan.</li>
+                  <li>2: Afghanistan is the 41st largest country in the world. </li>
+ 
+                </ul>
+
+                <button 
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary country-info"
+              >
+              <a href="https://www.britannica.com/place/Afghanistan" target="_blank">Learn More About China</a>
+                
+              </button>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  Iran<ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="iran"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>Iran is a country with:</b></li><br>
+                  <li>1: Iran is not an Arab country and Iranians are Persians.</li>
+                  <li>2: Iran is home to Zoroastrianism, one of the oldest religions in the world.</li>
+                  <li>3: It Is The Home Of One Of The Oldest Civilizations In The World.</li>
+                </ul>
+             
+               <button 
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary  country-info"
+              >
+              <a href="https://www.britannica.com/place/Persian-Gulf" target="_blank">Learn More About China</a>
+                
+              </button>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">
+                  Saudia Arabia <ion-icon name="time-outline"></ion-icon>
+                </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="ksa"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><b>Suadia Arabia is a country with:</b></li><br>
+                  <li>1: Date production in the world is dominated by Saudi Arabia!
+                    <li>2: The biggest airport in the world is King Khalid Airport.</li>
+                    <li>3: Saudi Arabia has the most oil reserves of any nation in the world.</li>
+                  </li>
+                </ul>
+                
+                <button 
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary country-info"
+              >
+              <a href="https://www.saudiembassy.net/about-saudi-arabia" target="_blank">Learn More About China</a>
+                
+              </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  
+  <script src="script.js"></script>
+
+</html>

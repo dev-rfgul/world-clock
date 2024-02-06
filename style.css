@@ -1,0 +1,71 @@
+.clock-center{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+#clockContainer{
+    position: relative;
+    
+    height: 20vw;
+    width: 20vw;
+    background :url(images/clock.png.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 65px;
+  
+}
+#hour, #minute, #second {
+    position: absolute; 
+    background: black;
+    border-radius: 10px ;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 28%;
+    top: 21%;
+    left: 48.75%;
+    opacity: 0.9;
+    /* display: none; */
+}
+
+
+#minute{
+    height: 33%;
+    width: 1.5%;
+    top: 17%;
+    left: 48.95%;
+    opacity: 0.7;
+    /* display: none; */
+
+    
+}
+#second{
+    height: 38%;
+    width: 1%;
+    top: 12%;
+    left: 48%;
+    opacity: 0.7;
+    /* display: none; */
+
+}
+
+
+
+
+.whole-card{
+    margin: 0px 85px;
+}
+
+
+.country-info a{
+    text-decoration: none;
+    color: rgb(13, 110, 253);
+    
+}
+.country-info a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
